@@ -1,7 +1,7 @@
 let user =  [];
 
 for (let i = 0; i < Infinity; i++) {
-let text = prompt('Введите действие и имя через запятую и пробел')
+let text = prompt('Введите действие (add - добавить; del - удалить) и имя через запятую и пробел')
  if (text == 'stop') { break}
  
 let array = text.split(', ')
